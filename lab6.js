@@ -37,5 +37,14 @@ function setEnglish() {
 
 }
 
-
+function snowAlert() {
+   letuserName = document.getElementById('input-name').value;
+   letuserSurame = document.getElementById('input-surname').value;
+   letuserAge = document.getElementById('input-age').value;
+   alert( 'Привет,' + userName + '' +userSurame + '\n' + 'Ваш возраст: ' + userAge);
+   let r = Math.round(Math.random()*255);
+   let g = Math.round(Math.random()*255);
+   let b = Math.round(Math.random()*255);
+   let color = 'rgb(' + r +',' + g +',' + b + ')';
+   document.getElementById('user-data').style.backgroundColor = color;
 }
