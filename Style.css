@@ -1,0 +1,118 @@
+h1 {
+    text-align: center;
+    font-size: 30pt;
+    animation: ani 1.5s forwards;
+}
+
+h2 {
+    text-align: center;
+    font-size: 20pt;
+    animation: ani 1.5s forwards;
+}
+
+.img {
+    width: 66%;
+
+    margin: 0 auto;
+    box-sizing: border-box;
+    padding: 20px;
+    animation: ani 1.5s forwards;
+}
+
+
+.Osn {
+    font-size: 16px;
+    text-align: justify;
+    font-family: serif;
+    animation: ani 1.5s forwards;
+}
+
+.tab_it {
+    width: 50%;
+
+    display: none;
+    margin: auto;
+    box-sizing: border-box;
+    padding: 20px;
+    animation: ani 1.5s forwards;
+}
+
+.tab_it.active {
+    display: block;
+    animation: ani 1.5s forwards;
+}
+body {
+    animation: ani 1.5s forwards;
+}
+@keyframes ani {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+  }
+
+.tap {
+    background-color: green;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    outline: none;
+
+
+}
+
+.tapser {
+    padding: 4px;
+    position: absolute;
+    display: inline-block;
+    margin-left: 26%;
+
+}
+
+.tapser-content {
+    display: none;
+    position: top;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    z-index: auto;
+    margin: auto;
+
+}
+.tapser-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.tapser-content a:hover {background-color: #ddd}
+.tapser:hover .tapser-content {
+    display: block;
+}
+
+.tap:hover, .tapser:hover .tap  {
+    background-color: green;
+}
+
+input {
+    margin: .4rem;
+}
+.swipe {
+    animation: ani 2.5s forwards;
+    padding: 1px;
+    margin-left: 26%;
+
+}
+.bt_style {
+    background-color: green ;
+    color: white; 
+    font-size: 16;
+}
+c {
+    background-color: green;
+    color: rgb(255, 255, 255);
+    font-size: 32px;
+    padding: 8px;
+    left: 0%;
+    text-align: center;
+    position: relative;
+}
